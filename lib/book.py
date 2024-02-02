@@ -17,9 +17,8 @@ class Book:
 
     def turn_page(self):
         print ("Flipping the page...wow, you read fast!")
-        pass
 
-    # checks validatio before it's saved 
+    # checks validation before it's saved 
     page_count = property(get_page_count, set_page_count,)
 
 book = Book("And Then There Were None", 272)
